@@ -1,0 +1,198 @@
+.modal-login-signUp{
+    .modal-dialog{
+        width: 380px;
+        top: 50px;
+        .modal-header{
+            .modal-title{
+                font-size: 18px;
+            }
+            .modal-close{
+                background: none;
+                width: 47px;
+                height: 47px;
+                line-height: 25px;
+                position: absolute;
+                right: -38px;
+                top: -35px;
+                color: white;
+                border: none;
+                cursor: pointer;
+    
+                &:focus{
+                    outline: none;
+                }
+    
+                i{
+                    color: white;
+                    font-size: 30px;
+                    transition: all 0.5s;
+                    &:hover{
+                        color: #00aff0;
+                    }
+                }
+            }
+        }
+        .modal-body{
+            padding: 20px;
+            .social-login{
+                .login-facebook{
+                    position: relative;
+                    .social-icon{
+                        position: absolute;
+                        top: 30%;
+                        left: 5%;
+                        font-size: 25px;
+                        color: white;
+                    }
+                }
+                .social-btn{
+                    box-shadow: 0 2px 2px 0 rgba(41,48,59,.24), 0 0 2px 0 rgba(41,48,59,.12);
+                    color: #fff;
+                    border-radius: 2px;
+                    font-size: 16px;
+                    font-weight: 600;
+                    height: 48px;
+                    margin-bottom: 8px;
+                    padding: 0;
+                    .social-icon{
+                        display: inline-block;
+                        font-size: 24px;
+                        font-weight: 400;
+                        text-align: center;
+                        width: 48px;            
+                    }
+                    .social-img{
+                        width: 34px;
+                    }
+                    &:hover{
+                        text-decoration: none;
+                    }
+                }
+                .kep-login-facebook{
+                    width: 100%;
+                    padding: 15px;
+                }
+                .facebook-btn{
+                    background-color: #1a538a;
+                    &:hover{
+                        background-color: #184b7d;
+                    }
+                }
+                .google-btn{
+                    color: #29303b;
+                    background-color: #fff;
+                    border: 1px solid #dedfe0;
+                    &:hover{
+                        background-color: #f0f0f0;
+                    }
+                }
+                .dflex{
+                    display: flex;
+                    align-items: center;
+                }
+            }
+            .form-login{
+                margin-top: 20px;
+                .input-container{
+                    .form-group{
+                        position: relative;
+                        display: flex;
+                        .input-icon{
+                            position: absolute;
+                            top: 30%;
+                            left: 5%;
+                            color: #8b8b8b;
+                        }
+                        .input-login{
+                            border-radius: 5px;
+                            color: #29303b;
+                            font-size: 18px;
+                            height: auto;
+                            padding: 11px 45px 12px 40px;
+                        }
+                    }       
+                }   
+                .action-container{
+                    text-align: center;
+                    .btn-logIn{
+                        font-size: 16px;
+                        font-weight: 600;
+                        height: 48px;
+                        margin-bottom: 16px;
+                        width: 100%;
+                        color: #fff;
+                        background-color: #ec5252;
+                        border: 1px solid transparent;
+                        border-radius: 5px;
+                        &:hover{
+                            background-color: #d84b4b;
+                        }
+                    }
+                    .action-fogot{
+                        color: #007791;
+                        &:hover{
+                            color: #016b83;
+                            text-decoration: none;
+                        }
+                    }
+                }               
+            }
+        }
+        .modal-footer{
+            border-top: none;
+            justify-content: center;
+            .footer-signUp{
+                color: #007791;
+                font-weight: 600;
+                &:hover{
+                    color: #016880;
+                    text-decoration: none;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+.modal-signUp{
+    .modal-dialog{
+        max-width: 600px;
+        width: 600px;
+        .modal-body{
+            .form-login{
+                margin-top: 0;
+                .input-container{
+                    .form-group{
+                        margin-bottom: 8px;
+                        display: block;
+                        .input-icon:first-child{
+                            top: 18px;
+                            left: 4%;
+                        }
+                    }
+                }
+                .form-rules{
+                    display: flex;
+                    .MuiButtonBase-root{
+                        align-items: flex-start;
+                        height: 42px;
+                    }
+                }
+                .action-container{
+                    margin-top: 10px;
+                    span{
+                        font-size: 10px;
+                    }
+                }
+            }
+            .modal-line{
+                border-top: 1px solid #dedfe0;
+                height: 1px;
+                margin-top: 15px;
+            }
+        }
+        .modal-footer{
+            padding: 0 20px 20px 20px;
+        }
+    }
+}

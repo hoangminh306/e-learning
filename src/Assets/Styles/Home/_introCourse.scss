@@ -1,0 +1,47 @@
+.owl-theme {
+    .owl-stage-outer {
+      padding: 45px 0;
+    }
+  
+    .owl-dots {
+      display: none;
+    }
+  
+    .owl-nav {
+      margin: 0 !important;
+      .owl-prev {
+        position: absolute;
+        top: 42%;
+        left: -25px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50% !important;
+        background: #ff980047 !important;
+  
+        i {
+          padding-top: 7px;
+          font-size: 17px;
+          padding-right: 2px;
+          color: rgb(255, 62, 1);
+        }
+      }
+  
+      .owl-next {
+        position: absolute;
+        top: 42%;
+        right: -25px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50% !important;
+        background: #ff980047 !important;
+  
+        i {
+          padding-top: 7px;
+          font-size: 17px;
+          padding-left: 5px;
+          color: rgb(255, 62, 1);
+        }
+      }
+    }
+  }
+  

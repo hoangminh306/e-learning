@@ -1,0 +1,117 @@
+.footer {
+  margin-top: 2%;
+  .footer__container {
+    height: 500px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    font-size: 12px;
+    .footer__background {
+      height: 260px;
+      background: white url("../../images/footer-background.png");
+      background-position: center center;
+      background-size: cover;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 1;
+    }
+    .footer__cloud {
+      left: 0;
+      height: 16%;
+      width: 100%;
+      background: transparent url("../../images/footer-cloud.png") repeat;
+      background-repeat: repeat-x;
+      background-size: 50% 100%;
+      position: absolute;
+      margin-top: 1%;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      z-index: 3;
+      animation: move-background 10s linear infinite;
+    }
+    .footer__content {
+      position: absolute;
+      display: flex;
+      background-color: white;
+      height: 240px;
+      width: 100%;
+      bottom: 0;
+      z-index: 1;
+      font-weight: 500;
+      .content__1 {
+        margin-top: 2%;
+        padding-left: 10%;
+        .footer__logo {
+          width: 140px;
+          height: 80px;
+        }
+        .content__1--text {
+          text-align: justify;
+          .logo_BCT {
+            width: 95px;
+            height: 40px;
+          }
+        }
+      }
+      .content__2 {
+        margin-top: 2%;
+        padding: 0 4%;
+      }
+      .content__3 {
+        margin-top: 2%;
+        padding: 0 4%;
+        img {
+          margin: 5px;
+          width: 50px;
+          height: 40px;
+        }
+      }
+      .content__4 {
+        margin-top: 2%;
+        padding-right: 10%;
+        text-align: center;
+        img {
+          margin: 5px;
+          height: 45px;
+        }
+      }
+    }
+  }
+}
+@keyframes move-background {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
+}
+@-webkit-keyframes move-background {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
+}
+@-moz-keyframes move-background {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
+}
+@-webkit-keyframes move-background {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
+}

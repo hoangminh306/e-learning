@@ -1,0 +1,7 @@
+.pagination__ul{
+    display: flex;
+    list-style: none;
+    li.active button {
+        background-color: red;
+      }
+}

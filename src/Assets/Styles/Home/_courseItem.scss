@@ -1,0 +1,114 @@
+.modtitle {
+    position: relative;
+    border-bottom: 3px solid;
+    border-color: #ff3e01;
+    font-size: 100%;
+    padding: 0;
+    margin: 0px 0px -1px 0px;
+    height: 40px;
+  
+    span {
+      display: inline-block;
+      font-size: 16px;
+      text-transform: uppercase;
+      position: relative;
+      color: #fff;
+      line-height: 40px;
+      padding: 0 18px;
+      background-color: #ff3e01;
+  
+      &::before {
+        content: "";
+        display: inline-block;
+        position: absolute;
+        top: 0px;
+        width: 0;
+        height: 0;
+        border-bottom: 40px solid #ff3e01;
+        right: -20px;
+        border-right: 20px solid transparent;
+      }
+    }
+  }
+  
+  .course {
+    transition: 0.3s all;
+    .course__item {
+      border: 1px solid rgba(0, 0, 0, 0);
+      border-radius: 4px;
+      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16),
+        0 2px 10px 0 rgba(0, 0, 0, 0.12);
+      transition: 0.5s all;
+      .course__view {
+        margin-right: 4%;
+        margin-left: 4%;
+        margin-top: -25px;
+        box-shadow: 0 3px 14px 0 rgba(0, 0, 0, 0.5),
+          0 6px 20px 0 rgba(0, 0, 0, 0.4);
+  
+        img {
+          width: 100%;
+        }
+      }
+    }
+  
+    .course__content {
+      margin: 10% 6% 8% 6%;
+      .course__title {
+        text-align: center;
+        a {
+          font-weight: 700;
+          font-size: 17px;
+          color: #05bfeb;
+          &:hover{
+            color: #047692;
+            text-decoration: none;
+          }
+        }
+      }
+  
+      .rating {
+        list-style-type: none;
+        padding: 0;
+        text-align: center;
+        li {
+          display: inline-block;
+          margin-right: 3px;
+          i {
+            color: #ffa000;
+          }
+        }
+      }
+  
+      .text-center {
+        margin-bottom: 8px;
+        font-size: 15px;
+        span {
+          color: #05bfeb;
+          font-weight: 600;
+        }
+      }
+  
+      .course__footer {
+        justify-content: space-between;
+        padding-top: 15px;
+        border-top: 1px solid rgba(0, 0, 0, 0.125);
+  
+        span {
+          font-size: 14px;
+        }
+  
+        i {
+          margin-right: 5px;
+        }
+      }
+    }
+  
+    &:hover {
+      transform: translateY(-8px);
+      .course__item {
+        box-shadow: 0 3px 18px 0 rgba(255, 152, 0, 0.78),
+          0 2px 10px 0 rgba(0, 0, 0, 0.12);
+      }
+    }
+  }

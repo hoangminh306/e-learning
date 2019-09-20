@@ -1,0 +1,83 @@
+.contact__container {
+    position: fixed;
+    bottom: 5%;
+    left: 1%;
+    z-index: 10;
+    a {
+      color: aqua;
+      .contact__icon {
+        width: 100px;
+        height: 77px;
+      }
+    }
+  }
+
+//   contact modal
+.modal-dialog {
+    width: 480px;
+    top: 50px;
+    .modal-content {
+      border-radius: 10px;
+      .modal-header {
+        text-align: justify;
+        .modal-close {
+          background: none;
+          width: 47px;
+          height: 47px;
+          line-height: 25px;
+          position: absolute;
+          right: -38px;
+          top: -35px;
+          color: white;
+          border: none;
+          cursor: pointer;
+  
+          &:focus {
+            outline: none;
+          }
+  
+          i {
+            color: white;
+            font-size: 30px;
+            transition: all 0.5s;
+            &:hover {
+              color: #00aff0;
+            }
+          }
+        }
+      }
+      .modal-body {
+          padding: 20px 20px 0 20px;
+        .input-group {
+          input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            padding-left: 40px;
+            font-size: 16px;
+            font-family: raleway;
+          }
+          .input_email {
+            background-image: url("../../images/contact_email.jpg");
+            background-size: 25px 25px;
+            background-repeat: no-repeat;
+            background-position: 5px 7px;
+          }
+        }
+      }
+      .modal-footer {
+        justify-content: center !important;
+        border-top: none;
+        padding-top: 0;
+        .contact__btn {
+          cursor: pointer;
+          width: 100%;
+          border-radius: 5px;
+          background-color: #d84b4b;
+          color: white;
+          border: none;
+          padding: 10px 0;
+        }
+      }
+    }
+  }

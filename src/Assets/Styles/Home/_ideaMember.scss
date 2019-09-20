@@ -1,0 +1,34 @@
+.member {
+  width: 90%;
+  margin: 0 auto;
+  .img__member {
+    margin-bottom: 15px;
+    img {
+      width: 25% !important;
+      height: 25%;
+      border: 4px solid #ff5722;
+      border-radius: 50px;
+      padding: 2px;
+    }
+  }
+  .idea__member {
+    text-align: justify;
+    width: 90%;
+    margin: 0 auto;
+    span {
+      margin: 0 10px;
+    }
+    i {
+      font-size: 20px;
+      color: #ff5722;
+    }
+  }
+  .idea__member-name{
+    position: absolute;
+    right: 10%;
+    margin-top: 15px;
+    color: #ff5722;
+    font-weight: 600;
+    font-size: 18px;
+  }
+}

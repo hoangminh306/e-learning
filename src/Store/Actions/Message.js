@@ -1,0 +1,11 @@
+export const MSG_SIGNIN_SUCCESS = 'Đăng nhập thành công !';
+export const MSG_SIGNIN_FAIL = 'Đăng nhập không thành công !';
+export const MSG_SIGNUP_SUCCESS = 'Đăng ký thành công !';
+export const MSG_EDIT_SUCCESS = 'Cập nhật thông tin thành công !';
+export const MSG_EDIT_FAIL = 'Cập nhật thông tin không thành công !';
+export const MSG_REQUIRED_LOGIN = 'Yêu cầu đăng nhập !';
+export const MSG_NOT_ADMIN = 'Bạn không có quyền truy cập !';
+export const MSG_DELETE_SUCCESS = 'Xóa người dùng thành công !';
+export const MSG_DELETE_FAIL = 'Xóa người dùng không thành công !';
+export const MSG_ADD_SUCCESS = 'Thêm thành công !';
+export const MSG_ADD_FAIL = 'Thêm không thành công !';

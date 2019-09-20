@@ -1,0 +1,50 @@
+.coverflow__container__1P-xE {
+  height: 380px !important;
+  .coverflow__figure__3bk_C {
+    width: 135px !important;
+    -webkit-box-reflect: unset !important;
+
+    .coverflow__cover__25-7e {
+      img {
+        display: block;
+        width: 100%;
+      }
+      .teachers__contact {
+        background-color: white;
+
+        padding: 2px 10px 10px 10px;
+        span {
+          font-size: 12px;
+        }
+        p {
+          font-size: 9px;
+          margin: 0;
+        }
+
+        .contact {
+          margin-top: 5px;
+
+          i {
+            border-radius: 4px;
+            color: white;
+            font-size: 9px;
+            margin-right: 3px;
+          }
+
+          .icon_twi {
+            background-color: #03aeef;
+            padding: 5px 6px;
+          }
+          .icon_fa {
+            background-color: #3c5a9d;
+            padding: 5px 7px;
+          }
+          .icon_go {
+            background-color: #dd4027;
+            padding: 5px 4px;
+          }
+        }
+      }
+    }
+  }
+}
