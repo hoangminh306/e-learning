@@ -9,7 +9,7 @@
     "formik": "^1.5.8",
     "jquery": "^3.4.1",
     "material-table": "^1.50.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "react": "^16.9.0",
     "react-checkbox-group": "^5.0.2",
     "react-coverflow": "^0.2.20",
